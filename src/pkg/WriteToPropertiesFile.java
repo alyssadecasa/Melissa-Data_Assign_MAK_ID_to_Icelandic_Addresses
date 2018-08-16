@@ -26,7 +26,7 @@ public class WriteToPropertiesFile {
 			output = new FileOutputStream("config.properties");
 
 			// set the properties value
-			prop.setProperty("table", "");	//set table
+			prop.setProperty("table", "");	// set table
 
 			// save properties to project root folder
 			prop.store(output, null);
